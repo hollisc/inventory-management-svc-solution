@@ -42,6 +42,8 @@ management:
 
 server:
   port: ${PORT:9080}
+  servlet:
+    context-path: "/api"
 
 logging:
   level:
