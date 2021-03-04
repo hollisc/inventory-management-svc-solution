@@ -21,7 +21,7 @@ service:
 
 route:
   enabled: false
-  path: "/"
+  path: "/api"
 
 ingress:
   enabled: true
