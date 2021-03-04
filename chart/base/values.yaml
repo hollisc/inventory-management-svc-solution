@@ -21,6 +21,7 @@ service:
 
 route:
   enabled: false
+  path: "/"
 
 ingress:
   enabled: true
