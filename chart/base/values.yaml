@@ -34,6 +34,7 @@ ingress:
   namespaceInHost: true
   subdomain: containers.appdomain.cloud
   path: "/"
+  rewrite-path: "/"
 
 #  tlsSecretName: ""
 

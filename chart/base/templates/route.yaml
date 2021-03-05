@@ -6,7 +6,7 @@ metadata:
   name: {{ $fullName }}
   annotations:
     argocd.argoproj.io/sync-options: Validate=false
-    haproxy.router.openshift.io/rewrite-target: /
+    haproxy.router.openshift.io/rewrite-target: {{ .Values.route.rewrite-path }}
 spec:
   to:
     kind: Service
